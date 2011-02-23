@@ -49,7 +49,7 @@
 #Condiciones
   #Sintaxis normal
   if true
-    puts "Siempre entro a esta sección"
+    puts "Siempre entro a esta seccion"
   else
     puts "Nadie me quiere escuchar"
   end
