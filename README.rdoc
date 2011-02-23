@@ -1,0 +1,7 @@
+= Ruby 101
+
+Este proyecto contiene todos los archivos del taller de Ruby 101 presentado en Monterrey, el 23 de Febrero del 2011 para el Rubyton.
+
+Dentro de cada Folder viene un archivo con el nombre de <b>readme.rb</b> donde viene la explicación del contenido que tiene esa parte del taller.
+
+Se hace esto de manera que el tallerista pueda explicar la sintaxis de Ruby desde el archivo utilizando como ventaja el highlighting del editor de texto de su preferencia.

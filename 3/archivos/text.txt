@@ -1,0 +1,2 @@
+Solo algo de texto en un archivo
+Separado en lineas distintas
