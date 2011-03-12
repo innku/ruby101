@@ -41,8 +41,7 @@
   
   #Metodos que devuelven valores
   def cuadrado(numero)
-    total = numero * numero
-    total
+    numero * numero
   end
   puts cuadrado(5) # => 25
 
@@ -70,7 +69,7 @@
   numeros << 4 # => [1,2,3,4]
   
   #Accessar elementos de un arreglo
-  numeros[0] # => 1
+  numeros.first # => 1
   numeros[1] # => 2
   
 #Hashes
@@ -81,7 +80,7 @@
   persona[:apellido] = 'Cuadros' # => {:nombre => 'Adrian', :edad => 25, :apellido => 'Cuadros'}
   
   #Accessar elementos de un hash
-  persona[:nombre] # => Adrian Cuadros
+  persona[:nombre] # => Adrian
 
 #Debuggear con inspect
   puts numeros.inspect # => [1,2,3,4]
@@ -90,9 +89,7 @@
 #Ciclos
   #each
   sumatoria = 0
-  [1,2,3,4].each do |valor|
-    sumatoria += valor
-  end
+  [1,2,3,4].each { |valor| sumatoria += valor }
   puts sumatoria # => 10
   
   #while

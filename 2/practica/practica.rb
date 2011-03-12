@@ -7,9 +7,8 @@
 ### Tu codigo va debajo de esta linea
 
 
-  
 ### Fin de tu codigo
 
 usuario = Usuario.new('Rogelio', 'Guzman', 22)
-p usuario.to_s # => Rogelio Guzman, 22 primaveras
+puts usuario.to_s # => Rogelio Guzman, 22 primaveras
 

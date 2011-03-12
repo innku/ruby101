@@ -4,10 +4,13 @@
 
 ### Tu codigo va debajo de esta linea
 
+
+
 ### Fin de tu codigo
 
-persona = registro
-puts persona.inspect
+  persona = registro
+  puts persona.inspect
+  
 # => {:nombre => 'Tu nombre', :apellido => 'Tu apellido', :edad => 'Tu edad'}
 
 # BONUS! 

@@ -6,6 +6,8 @@ require './usuario'
 # Ningun atributo debe contener caracteres basura
 
 ### Tu codigo va debajo de esta linea
+  
+ puts Usuario.cargar('csv/usuarios.csv').inspect
 
 ### Fin de tu codigo
 
