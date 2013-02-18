@@ -1,4 +1,4 @@
-# Trae todas las peliculas de la cartelera actual de rottentomatoes.org
+# Trae todas las peliculas de la cartelera actual de rottentomatoes.com
 # Guarda el nombre y el score en % dentro de la clase movie
 
 
