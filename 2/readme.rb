@@ -1,4 +1,4 @@
-# RUBY 101 - Clases
+# RUBY 101 - Crea tus propios objetos
 
 #Clases
   #Definicion
