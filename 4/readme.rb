@@ -10,9 +10,9 @@ require 'nokogiri'
 apple_store_html = Nokogiri::HTML(apple_store_content)
 
 apple_mac_products = []
-apple_store_html.css('#family-mac li span').each do |node|
-  apple_mac_products << {:name => node.css('strong').text, 
-                         :price => node.css('nobr').text }
+apple_store_html.css('.item-list .tile-wrap').each do |node|
+  apple_mac_products << {:name => node.css('.product-title').text,
+                         :price => node.css('.price-current').text }
 end
 
 #JSON te permite formatear tus objectos y estructuras a JSON
