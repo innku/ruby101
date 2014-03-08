@@ -1,6 +1,6 @@
 = Ruby 101
 
-Este proyecto contiene todos los archivos del taller de Ruby 101 presentado en Monterrey, el 23 de Febrero del 2011 para el Rubyton.
+Este proyecto contiene todos los archivos del taller de Ruby 101.
 
 Dentro de cada Folder viene un archivo con el nombre de <b>readme.rb</b> donde viene la explicación del contenido que tiene esa parte del taller.
 
@@ -15,3 +15,13 @@ Instala bundler
 	
 Corre el comando bundle
 	bundle
+	
+== Recursos adicionales
+
+* Para aprender más de sintaxis: Ruby koans[http://rubykoans.com]
+* Ejercicios donde te dan feedback: Exercism.io[http://exercism.io]
+* Tutorial Interactivo: TryRuby[tryruby.org]
+
+== Créditos
+
+La guía es mantenida por Innku[http://www.innku.com]
