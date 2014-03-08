@@ -1,10 +1,21 @@
 # Ruby 101
 
+Ruby 101 es un curso básico que sirve como punto de partida para programar en Ruby.
+
 Este proyecto contiene todos los archivos del taller de Ruby 101.
 
 Dentro de cada Folder viene un archivo con el nombre de <b>readme.rb</b> donde viene la explicación del contenido que tiene esa parte del taller.
 
-Se hace esto de manera que el tallerista pueda explicar la sintaxis de Ruby desde el archivo utilizando como ventaja el highlighting del editor de texto de su preferencia.
+Adicionalmente viene un ejercicio de práctica para cada lección.
+
+## Contenido
+
+* Sintaxis Básica
+* Objetos en Ruby
+* Operaciones comunes con archivos y Strings
+* Crawler
+* Levantar un servidor
+* Crear una aplicación Rack
 
 ## Requerimientos
 
